@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/profilecard">
+        <ImageView
+            android:id="@+id/myimageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:id="@+id/mygroupname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout"
+        android:layout_toRightOf="@+id/profilecard"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/mymessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do ur workout"
+        android:layout_toRightOf="@+id/profilecard"
+        android:layout_below="@+id/mygroupname"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/mytimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="10 mins each"
+        android:layout_margin="20dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HerShield</string>
+    <string name="new_text">Welcome To HerShield App. To report danger, shake your phone 3 times.</string>
+    <string name="add_emergency_contact">Add Emergency Contact</string>
+    <string name="HerShield" />
+</resources>

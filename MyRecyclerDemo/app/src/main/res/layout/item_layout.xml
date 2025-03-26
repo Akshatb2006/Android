@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/mycardview"
+        app:cardCornerRadius="22.5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/images"
+            android:scaleType="centerCrop"
+            android:id="@+id/myimageview" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/myGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dog Park Group "
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/mycardview" />
+
+    <TextView
+        android:id="@+id/myGroupMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mycardview"
+        android:layout_below="@id/myGroupName"
+        android:text="Jordan : Anybody's Up?..."
+        android:textColor="#757575" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.45"
+        android:id="@+id/myTimeStamp"
+        android:layout_alignParentRight="true"/>
+
+
+
+
+
+
+
+</RelativeLayout>

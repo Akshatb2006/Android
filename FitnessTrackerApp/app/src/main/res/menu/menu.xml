@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/workout"
+        android:title="Workout">
+    </item>
+    <item
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/progress"
+        android:title="Progress">
+    </item>
+    <item
+        android:icon="@drawable/ic_launcher_foreground"
+        android:id="@+id/goal"
+        android:title="Goal">
+    </item>
+
+
+
+</menu>
