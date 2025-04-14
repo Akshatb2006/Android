@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Process One"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        android:id="@+id/processOneText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        android:id="@+id/myFirstCount"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:textSize="30dp"
+        android:id="@+id/counterButton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Process Two"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        android:id="@+id/processTwoText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:textSize="30dp"
+        android:id="@+id/downloadButton"
+        />
+
+</LinearLayout>
