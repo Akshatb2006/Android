@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LanguageExample</string>
+    <string name="hindi" translatable="false">हिन्दी</string>
+    <string name="english" translatable="false">English</string>
+    <string name="bengali" translatable="false">বাংলা</string>
+    <string name="login">লগইন</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="username">ব্যবহারকারীর নাম</string>
+    <string name="login_page">লগইন পৃষ্ঠা</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+</resources>
+
